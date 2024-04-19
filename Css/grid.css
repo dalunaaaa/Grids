@@ -1,0 +1,48 @@
+.section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.article1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.article1 a{
+    font-size: 15px;
+    padding: 4px 15px;
+    color: black;
+    bottom: 2px;
+    border-left: 2px solid black;
+}
+
+.article2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article2 a{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid2{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
